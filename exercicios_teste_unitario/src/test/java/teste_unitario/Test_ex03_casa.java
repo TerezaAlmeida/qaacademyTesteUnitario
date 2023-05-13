@@ -7,7 +7,8 @@ public class Test_ex03_casa {
 
     @Test
     public void validaTexto(){
-        Assert.assertEquals("sabado", Ex03Casa.obtemTexto());
+       // Assert.assertEquals("sabado", Ex03Casa.obtemTexto());
+        Assert.assertNotEquals("sabado", Ex03Casa.obtemTexto());
     }
 }
     

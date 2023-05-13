@@ -6,6 +6,7 @@ import org.junit.Test;
 public class Test_ex01_casa {
     @Test
     public void validaDivisaoPorDois(){
-        Assert.assertTrue(Ex01Casa.eDivisivelPorDois(20));;
+        Assert.assertTrue(Ex01Casa.eDivisivelPorDois(20));
+        Assert.assertFalse(Ex01Casa.eDivisivelPorDois(20));
     }
 }
